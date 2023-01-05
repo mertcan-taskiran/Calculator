@@ -1,0 +1,32 @@
+.calculator {
+    backdrop-filter: blur(16px) saturate(180%);
+}
+
+.screen {
+    height: 10vh;
+    outline: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(45deg, rgb(114, 114, 114), #494949);
+}
+
+button {    
+    height: 7vh;
+    width: 10vh;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(45deg, transparent, #494949);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.equalsToBtn {
+    width: 189%;
+}
